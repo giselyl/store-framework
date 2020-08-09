@@ -29,7 +29,6 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "product-images",
       "stack-layout#brand"
     ]
   },
@@ -57,7 +56,7 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "initialSelection": "complete",
+      "showValueForVariation": "image",
       "showVariationsErrorMessage": true
     }
   },
